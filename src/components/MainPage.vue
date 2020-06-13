@@ -6,6 +6,10 @@
       check out the
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
+    <h3>Page List</h3>
+    <ul>
+      <li><a v-on:click="$router.push('file')" target="_blank" rel="noopener">File Manager</a></li>
+    </ul>
     <h3>Installed CLI Plugins</h3>
     <ul>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
